@@ -1,0 +1,26 @@
+{
+  "name": "interact",
+  "version": "0.0.0",
+  "description": "Interact with your desktop from your mobile device",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bredele/interact.git"
+  },
+  "keywords": [
+    "interact",
+    "socket",
+    "connection",
+    "web",
+    "html5",
+    "express"
+  ],
+  "author": "Olivier Wietrich",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bredele/interact/issues"
+  }
+}
