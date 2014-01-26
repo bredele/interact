@@ -10,6 +10,11 @@
     "type": "git",
     "url": "git://github.com/bredele/interact.git"
   },
+  "dependencies" : {
+    "express": "*",
+    "debug": "*",
+    "commander": "~1.1.1"
+    },
   "keywords": [
     "interact",
     "socket",
