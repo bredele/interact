@@ -1,5 +1,5 @@
 example: node_modules components
-	@NODE_PATH=lib ./bin/examples.io -e basic
+	./bin/examples.io -e basic
 
 node_modules: package.json
 	@npm install
