@@ -1,0 +1,10 @@
+{
+  "name": "interact",
+  "repo": "bredele/interact",
+  "description": "Interact with your desktop from your mobile device",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT"
+}
