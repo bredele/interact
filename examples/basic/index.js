@@ -19,4 +19,4 @@ app.use(express.logger('dev'));
 
 // mount
 
-// app.use(require('interact'));
+app.use(interact.room('test'));
