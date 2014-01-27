@@ -4,7 +4,7 @@
  */
 
 var express = require('express'),
-		interact = require('../../lib');
+		interact = require('../../lib'); //should have listen for socket.io
 
 
 //exports
@@ -19,4 +19,4 @@ app.use(express.logger('dev'));
 
 // mount
 
-app.use(interact.room('test'));
+app.use(interact.room('test', 'view'));
