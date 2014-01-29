@@ -4,12 +4,10 @@
  */
 
 var express = require('express'),
-		interact = require('../../lib'); //should have listen for socket.io
+		app = module.exports = express(),
+		io = require('socket.io').listen(app),
+		interact = require('../../lib')(io); //should have listen for socket.io
 
-
-//exports
-
-var app = module.exports = express();
 
 
 // middleware
