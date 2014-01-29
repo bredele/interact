@@ -28,5 +28,8 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/bredele/interact/issues"
+  },
+  "devDependencies": {
+    "jade": "~1.1.5"
   }
 }
