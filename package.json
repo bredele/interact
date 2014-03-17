@@ -2,7 +2,7 @@
   "name": "interact",
   "version": "0.0.0",
   "description": "Interact with your desktop from your mobile device",
-  "main": "lib/index.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,7 +14,8 @@
     "express": "*",
     "debug": "*",
     "commander": "~1.1.1",
-    "socket.io": "~0.9.16"
+    "socket.io": "~0.9.16",
+    "store-component": "~0.1.5"
   },
   "keywords": [
     "interact",

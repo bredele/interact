@@ -1,22 +1,20 @@
+var interact = require('../..');
 
-/**
- * Module dependencies.
- */
-
-var express = require('express'),
-		app = module.exports = express(),
-		interact = require('../../lib').listen(app); //we should pass socket, port in second arg
-
+var app = interact(8000);
 
 // settings
 
 app.set('views', __dirname);
 app.set('view engine', 'jade');
 
+
 // middleware
 
-app.use(express.logger('dev'));
+app.use(interact.logger('dev'));
 
-// mount
+//create interact room]
 
-app.use(interact('test', 'view'));
+app.room('test', 'view');
+
+//it seems it doesn't work
+//app.listen(8000);
