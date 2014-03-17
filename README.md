@@ -2,7 +2,7 @@
 
   > Interact creates a peer to peer connection between your desktop and your mobile device.
 
-  Interact is a new way to navigate into an application or a website. For example, it transforms your mobile into a [remote controller](http://www.youtube.com/watch?v=D7EFot_kmS0), a [drawing board](http://www.youtube.com/watch?v=9iyTxBj-3F8). 
+See [remote controller](http://www.youtube.com/watch?v=D7EFot_kmS0) or [drawing board](http://www.youtube.com/watch?v=9iyTxBj-3F8). 
 
 
 ## Installation
@@ -13,7 +13,7 @@
 
 ### Server
 
- `Interact` is a nodejs server. It's API inherits from [express](https://github.com/visionmedia/express) and is very clean and easy. Let's say you want to create a communicate channel called `foo`:
+ `Interact` is a nodejs server. It's API inherits from [express](https://github.com/visionmedia/express) and is very clean and easy. Let's say you want to create a communication channel called `foo`:
 
 ```js
 var app = require('interact')();
